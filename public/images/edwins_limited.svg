@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+
+  <!-- CIRCLE RING -->
+  <circle cx="52" cy="128" r="38" fill="none" stroke="#A06700" stroke-width="3.2"/>
+
+  <!-- LEAVES + STEM inside circle -->
+  <g transform="translate(52,128)">
+    <!-- Left leaf -->
+    <path d="M 1,14 C -2,4 -22,-8 -18,-26 C -14,-36 -2,-24 1,-7 Z" fill="#A06700"/>
+    <!-- Right leaf -->
+    <path d="M 1,14 C 4,2 18,-10 14,-26 C 10,-34 2,-22 1,-7 Z" fill="#A06700"/>
+    <!-- Stem -->
+    <line x1="1" y1="14" x2="1" y2="24" stroke="#A06700" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- EDWINS text -->
+  <text
+    x="100" y="124"
+    font-family="'Century Gothic','Futura','Gill Sans','Trebuchet MS',sans-serif"
+    font-size="17.5" font-weight="600" letter-spacing="2.2"
+    fill="#A06700" text-anchor="start">EDWINS</text>
+
+  <!-- LIMITED text -->
+  <text
+    x="100" y="143"
+    font-family="'Century Gothic','Futura','Gill Sans','Trebuchet MS',sans-serif"
+    font-size="17.5" font-weight="600" letter-spacing="2.2"
+    fill="#A06700" text-anchor="start">LIMITED</text>
+
+</svg>

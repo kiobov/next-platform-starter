@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!--
+    KHARIS logo — pure vector
+    K drawn with smooth rounded bezier strokes to match brand style
+    Color: #A06700 | Background: transparent | 256x256
+  -->
+
+  <g transform="translate(18, 78)" fill="none" stroke="#A06700" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- K letterform: vertical stem + upper diagonal + lower diagonal -->
+    <!-- Vertical stem of K -->
+    <line x1="6" y1="4" x2="6" y2="96" stroke="#A06700" stroke-width="11"/>
+
+    <!-- Upper arm of K: from mid-stem to top-right -->
+    <path d="M 6,52 C 18,40 30,24 46,8" stroke="#A06700" stroke-width="11"/>
+
+    <!-- Lower arm of K: from mid-stem to bottom-right -->
+    <path d="M 6,52 C 20,64 32,78 48,96" stroke="#A06700" stroke-width="11"/>
+
+  </g>
+
+  <!-- "haris" wordmark, vertically centered -->
+  <text
+    x="82"
+    y="128"
+    font-family="'Helvetica Neue', 'Arial', sans-serif"
+    font-size="68"
+    font-weight="400"
+    letter-spacing="-0.5"
+    fill="#A06700"
+    dominant-baseline="middle"
+    text-anchor="start">haris</text>
+
+</svg>

@@ -6,19 +6,19 @@ export function Testimonials() {
             name: 'Lilian CEO, Edwins Limited',
             text: 'Build website and managed company',
             avatar: '/images/lilianimage.jfif',
-            linkedin: 'https://www.linkedin.com/in/lilian-profile',
+            linkedin: 'https://www.linkedin.com/in/lilian-kinyua-15824b39/',
         },
         {
             name: 'Sarah Head of Data, Kharis',
             text: 'Build website and managed company',
-            avatar: '/images/sarah-image.jfif',
-            linkedin: 'https://www.linkedin.com/in/sarah-profile',
+            avatar: '/images/sarah image.jfif',
+            linkedin: 'https://www.linkedin.com/in/sarah-ben-slimene-866a2316a/',
         },
         {
             name: 'Jared QA, Sama',
             text: 'Build website and managed company',
             avatar: '/images/jaredimage.jfif',
-            linkedin: 'https://www.linkedin.com/in/jared-profile',
+            linkedin: 'https://www.linkedin.com/in/jared-aura-2b8768213/',
         },
     ];
 

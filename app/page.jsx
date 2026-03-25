@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import {Header} from 'components/header'
 import {Features} from 'components/Features'
 import {Projects} from 'components/Projects'

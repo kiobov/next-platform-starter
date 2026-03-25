@@ -7,27 +7,40 @@ export function Technologies() {
 
     return (
         <section style={{
-            padding: '2rem',
+            padding: '2rem 0',
             backgroundColor: 'white',
+            overflow: 'hidden',        
         }}>
-            <div style={{
-                maxWidth: '900px',
-                margin: '0 auto',
-                display: 'flex',
-                flexWrap: 'wrap',
-                gap: '1.2rem',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-            }}>
-                {tools.map((tool) => (
+            <style>{`
+                @keyframes scrollLeft {
+                    0%   { transform: translateX(0); }
+                    100% { transform: translateX(-50%); }
+                }
+                .marquee-track {
+                    display: flex;
+                    width: max-content;
+                    animation: scrollLeft 18s linear infinite;
+                }
+                .marquee-track:hover {
+                    animation-play-state: paused;  /* pauses on hover */
+                }
+            `}</style>
+
+            <div className="marquee-track">
+                
+                {[...tools, ...tools].map((tool, i) => (
                     <img
-                        key={tool}
-                        src={`/images/logosportfolio/${tool}.svg`}
+                        key={i}
+                        src={`/images/logo_${tool}.svg`}
                         alt={tool}
                         width={52}
                         height={52}
-                        style={{ objectFit: 'contain' }}
                         title={tool}
+                        style={{
+                            objectFit: 'contain',
+                            margin: '0 1.5rem',
+                            flexShrink: 0,
+                        }}
                     />
                 ))}
             </div>

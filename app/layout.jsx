@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/images/proffessional image crop1.jpg" sizes="any" />
+                <link rel="icon" href="/images/proffesional image crop1.jpg" sizes="any" />
             </head>
             <body style={{
                 margin: 0,

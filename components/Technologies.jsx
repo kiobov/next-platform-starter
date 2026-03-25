@@ -1,8 +1,8 @@
 export function Technologies() {
     const tools = [
-        'logo_tableau', 'logo_hadoop', 'logo_pandas', 'logo_python',
-        'logo_cpp', 'logo_scikitlearn', 'logo_looker',
-        'logo_aws', 'logo_java', 'logo_excel',
+        'Tableau', 'Hadoop', 'Pandas', 'Python',
+        'CPP', 'Scikitlearn', 'Looker',
+        'AWS', 'Java', 'Excel',
     ];
 
     return (

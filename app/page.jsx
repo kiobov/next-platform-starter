@@ -16,9 +16,6 @@ export default function Page() {
 		<Testimonials/>
 		<Technologies/>
 		<CaseStudy/>
-		
-
-
 		</div>);
 
         

@@ -23,7 +23,7 @@ export function Testimonials() {
     ];
 
     return (
-        <section style={{ padding: '3rem 0', backgroundColor: 'white', overflow: 'hidden' }}>
+        <section style={{ padding: '4rem 0', backgroundColor: 'linear-gradient(to bottom, #ffffff, #fffdf5)', overflow: 'hidden' }}>
             <h2 style={{ color: '#888', fontWeight: '400', fontSize: '1.1rem', marginBottom: '1.5rem', paddingLeft: '2rem' }}>
                 Testimonials
             </h2>

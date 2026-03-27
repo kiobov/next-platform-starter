@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function Footer() {
     return (
-        <footer style={{ backgroundColor: '#7A4E00', padding: '2rem' }}>
+        <footer style={{ backgroundColor: '#7A4E00', padding: '4rem 2rem', marginTop:'-1px' }}>
             <div style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 
                 {/* Social Icons Row */}

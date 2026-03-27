@@ -8,7 +8,7 @@ export function Features() {
 
     return (
         <section style={{
-            padding: '2rem 0',
+            padding: '0.5rem 0',
             backgroundColor: 'white',
             borderBottom: '1px solid #f0f0f0',
             overflow: 'hidden',        

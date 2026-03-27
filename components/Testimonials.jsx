@@ -10,13 +10,13 @@ export function Testimonials() {
         },
         {
             name: 'Sarah Head of Data, Kharis',
-            text: 'Build website and managed company',
+            text: 'Junior Data Scientist',
             avatar: '/images/sarah image.jfif',
             linkedin: 'https://www.linkedin.com/in/sarah-ben-slimene-866a2316a/',
         },
         {
             name: 'Jared QA, Sama',
-            text: 'Build website and managed company',
+            text: 'QA self driving cars',
             avatar: '/images/jaredimage.jfif',
             linkedin: 'https://www.linkedin.com/in/jared-aura-2b8768213/',
         },

@@ -62,7 +62,7 @@ export function Projects() {
                 }}>
                     {/* Card 1 - teal, top left */}
                     <div style={{
-                        backgroundColor: '#1A8FA0',
+                        backgroundColor: '#EFEFED',
                         borderRadius: '12px',
                         padding: '1.5rem',
                         display: 'flex',

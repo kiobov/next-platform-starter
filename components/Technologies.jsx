@@ -7,8 +7,8 @@ export function Technologies() {
 
     return (
         <section style={{
-            padding: '2rem 0',
-            backgroundColor: 'white',
+            padding: '4rem 0',
+            backgroundColor: 'linear-gradient(to bottom, #fffdf5 0%, #f7e8cc 100%)',
             overflow: 'hidden',        
         }}>
             <style>{`

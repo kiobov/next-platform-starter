@@ -2,9 +2,9 @@ export function CaseStudy() {
     return (
         <section style={{
             // TRANSITION: Starts white and fades into the dark brown at the very bottom
-            background: 'linear-gradient(to bottom, #ffffff 60%, #8B5E02 100%)', 
-            paddingTop: '4rem',      
-            paddingBottom: '8rem',   
+            background: 'linear-gradient(to bottom, #f7e8cc 0%, #7A4E00 100%)', 
+            paddingTop: '6rem',      
+            paddingBottom: '6rem',   
             overflow: 'hidden',
         }}>
             <div style={{
@@ -34,7 +34,7 @@ export function CaseStudy() {
                     Case Study Projects
                 </a>
                 <p style={{
-                    color: '#555',
+                    color: 'rgba(255,255,255,0.9)',
                     fontSize: '0.88rem',
                     lineHeight: '1.7',
                     maxWidth: '480px',

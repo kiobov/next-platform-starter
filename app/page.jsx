@@ -9,7 +9,7 @@ import {CaseStudy} from 'components/CaseStudy'
 
 
 export default function Page() {
-	return (<div style = {{backgroundColor: 'white'}}>
+	return (<div style = {{backgroundColor: '#8B5E02'}}>
 		
 		<Features/>
 		<Projects/>

@@ -1,8 +1,10 @@
 export function CaseStudy() {
     return (
         <section style={{
-            padding: '3rem 2rem',
-            backgroundColor: 'white',
+            backgroundColor: 'white', 
+            paddingBottom: '4rem',    
+            borderBottomLeftRadius: '40px', 
+            borderBottomRightRadius: '40px',
         }}>
             <div style={{
                 maxWidth: '900px',

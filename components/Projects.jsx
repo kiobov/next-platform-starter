@@ -72,7 +72,7 @@ export function Projects() {
                         border: '2px dashed #555',
                     }}>
                         <p style={{
-                            color: 'white',
+                            color: 'black',
                             fontWeight: '700',
                             fontSize: '1rem',
                             lineHeight: '1.4',
